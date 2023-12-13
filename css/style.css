@@ -83,7 +83,18 @@ html{
     z-index:1000;  
     background: #fff; 
 }
-
+.title{
+    font-size:28px;
+    color:gray;
+    margin-left:10px;
+    text-decoration:none !important;
+}
+.title1{
+    font-size:20px;
+    color:rgba(78, 58, 58, 0.954);
+    margin-left:10px;
+    text-decoration:none !important;
+}
 .logo{
     font-size:2.5rem;   
  }
@@ -369,6 +380,13 @@ section{
     text-transform:capitalize;    
     padding:1rem 0;
 }
+.services .intro p{
+    font-size:1.8rem;
+    color:black;
+    line-height: 1.5;  
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .services p{
     font-size:1.4rem;
     color:rgb(10, 75, 150);
@@ -526,7 +544,7 @@ textarea{
     color:var(--light-color);
 }
 
-form .btn{
+form .btn1{
     background:rgb(145, 145, 205);
     width:100%;
     color:#fff;
