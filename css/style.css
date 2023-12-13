@@ -361,10 +361,16 @@ section{
 }
 .services .box{
     text-align: center;
+    height:100%;
+    overflow:scroll;
     padding: 3rem;
     background: var(--white);
     box-shadow: var(--box-shadow);
     border:var(--border)
+}
+.services .box ul li{
+    text-align: left;
+    font-size:13px;
 }
 .services img{
     height:7rem;
@@ -376,7 +382,7 @@ section{
 }
 .services h3{
     font-size:1.7rem;
-    color:var(--black);
+    color:blue;
     text-transform:capitalize;    
     padding:1rem 0;
 }
@@ -388,9 +394,10 @@ section{
 }
 
 .services p{
-    font-size:1.4rem;
-    color:rgb(10, 75, 150);
+    font-size:1.2rem;
+    color:black;
     line-height: .9;  
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .projects{
