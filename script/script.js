@@ -5,6 +5,7 @@ let contactInfo = document.querySelector('.contact-info');
 
 document.querySelector('#menu-btn').onclick = () =>{
     navBar.classList.toggle('active'); 
+    navBar.classList.toggle('active'); 
     searchForm.classList.remove('active'); 
     contactInfo.classList.remove('active');
 };

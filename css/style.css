@@ -220,11 +220,14 @@ section{
     width:100%;
     background:linear-gradient(90deg,var(--white),transparent);
 }
+
+
 .content{
-    width:50rem;
     position:relative;
 }
+
 .content h3{
+    width:60rem;
     font-size:5rem;
     color:var(--black);
     text-transform:uppercase;   
@@ -232,12 +235,38 @@ section{
 .content p{
     font-size:1.8rem;
     color:var(--black);
-    text-transform:capitalize; 
-    line-height:2;
-    padding:3rem 0;
+    width:90%;
+    line-height:1.5;
+    padding:.6rem 0;
 }
-
-.content .btn{
+.content1 h3{
+    width:50rem;
+    font-size:5rem;
+    color:var(--black);
+    text-transform:uppercase;   
+}
+.content1 p{
+    width:50rem;
+    font-size:1.8rem;
+    color:var(--black); 
+    line-height:1.5;
+    padding:.6rem 0;
+}
+ .btn{
+    padding: 10px;
+    margin-left: 30%;
+    height:6rem;
+    width:10rem;
+    line-height: 3rem;
+    font-size:2.5rem;
+    background:var(--black);
+    color:var(--white);
+    cursor:pointer;
+    border-radius: 5%;
+    text-align:center; 
+    border-top: var(--border);   
+}
+.btn{
     padding: 10px;
     height:6rem;
     width:8rem;
@@ -253,7 +282,8 @@ section{
 .btn:hover{
     background:transparent;
     border:1px solid var(--white);
-    color:var(--yellow);
+    text-transform:uppercase;
+    color:green;
 }
 
 .heading{
