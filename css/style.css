@@ -392,7 +392,19 @@ section{
     line-height: 1.5;  
     font-family: 'Courier New', Courier, monospace;
 }
-
+.services .intro1 p{
+    font-size:1.5rem;
+    margin-left: 60px;
+    color:black;
+    line-height: 1.7;  
+    font-family:  sans-serif;
+}
+.services .intro1 .number,h2{
+    font-size:80px;
+    position:absolute;
+    padding-right: 20px;
+    color:rgb(145, 214, 114);
+}
 .services p{
     font-size:1.2rem;
     color:black;
