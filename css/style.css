@@ -653,6 +653,9 @@ form .btn1{
     height:40px;
     border-radius: 10px;
 }
+.btn1:hover{
+    background: #e6b30f;
+   }
 hr{
     width:100%;
     border:2px dotted green;
@@ -776,8 +779,15 @@ tr:hover{
      .home .content{
         width:96%;
      }
+     .home .content h3{
+        width:98%;
+        font-size: 28px;
+     }
+
      .home .content p{
         width:98%;
+        font-size: 12px;
+        margin-right:10px;
      }
 
  .box-container{
@@ -785,6 +795,9 @@ tr:hover{
         display:grid;
         grid-template-columns:48% 48%;
         gap:2rem;  
+    }
+    .about{
+        width:100%;
     }
     .content1 h3{
         font-size:2rem;
@@ -840,7 +853,7 @@ tr:hover{
 }
 .legal .box1{
     text-align: center;
-    margin-left: -30px;
+    margin-left: 0px;
     height:100%;
     overflow:hidden;
     padding-top: 2rem;
