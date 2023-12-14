@@ -277,19 +277,7 @@ section{
     text-align:center; 
     border-top: var(--border);   
 }
-.btn{
-    padding: 10px;
-    height:6rem;
-    width:8rem;
-    line-height: 3rem;
-    font-size:1.5rem;
-    background:var(--black);
-    color:var(--white);
-    cursor:pointer;
-    border-radius: 5%;
-    text-align:center; 
-    border-top: var(--border);   
-}
+
 .btn:hover{
     background:transparent;
     border:1px solid var(--white);
@@ -796,8 +784,9 @@ tr:hover{
         grid-template-columns:48% 48%;
         gap:2rem;  
     }
-    .about{
-        width:100%;
+    .about .content1{
+        width:90%;
+        margin-right: 50px;
     }
     .content1 h3{
         font-size:2rem;
