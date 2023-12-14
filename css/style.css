@@ -135,76 +135,51 @@ html{
 }
 
 .contact-info{
-   position:fixed;
-   top:0;
-   right:10px;
-   width:100%;
+   position:relative;
    background:var(--white);
-   height:100%;
-   text-align:center;
-   z-index:1100;
+   text-align:left;
    padding:0 2rem;
-   padding-top:4rem;
-   display:none;
-   transition:.2s;
+   padding-top:2rem;
+   padding-left: 30%;
+   transition:.2s linear;
+   border: 2px solid black;
 }
-
-.active{
-    box-shadow:0 0 0 100vw rgba(0,0,0,.7);
-    display:block;
-
-   }
-#close-contact-info{
-    position:absolute;
-    top:1rem;
-    right:1.5rem;
-    cursor:pointer;
-    font-size:3rem;
+.contact-info .fas{
+    margin-right: 10px;
+    font-size:2rem;
     color:var(--black);
 }
-#close-contact-info:hover{
-    transform:rotate(90deg);
-}
-.contact-info .info{
-    padding:1rem 0;
-}
-.contact-info .info i{
-margin-bottom: .5rem;
-height:5rem;
-width:6rem;
-line-height: 5rem;
-font-size:2rem;
-background:var(--light-bg);
-color:var(--black);
-cursor:pointer;
-text-align:center;
-}
+
 .contact-info .info h3{
-    padding:1rem 0;
+    font-size: 2rem;
     color:#f5bf23
 }
 .contact-info  .info p{
     font-size:1.5rem;
     color:var(--light-color);
-    line-height: 1.5;
+    line-height: 2.5;
+    margin-left: 5%;
 }
 .contact-info  .share{
     padding-top: 1rem;
 }
 .contact-info  .share a{
-margin:0 0.3rem;
-height:3rem;
-width:3rem;
-line-height: 3rem;
-font-size:2rem;
-background:var(--light-bg);
-color:var(--black);
-cursor:pointer;
-text-align:center;   
-border-top: var(--border);
-margin-top:0.2rem;
+    margin:0 0.3rem;
+    height:5rem;
+    width:5rem;
+    line-height: 3rem;
+    font-size:2rem;
+    color:purple;
+    cursor:pointer;
+    text-align:center;   
+    margin-top:0.2rem;
 }
+.contact-info  .share a:hover{
+    font-size:3rem;
+    color:var(--yellow);
 
+}
+     
 section{
     padding:5rem 10%;
 }
@@ -537,7 +512,7 @@ section{
     padding:1.5rem;
     background: var(--light-bg);
     position:relative;
-    margin-bottom: -2rem;
+    margin-bottom: 1px;
     font-size:1.5rem;
     color:rgb(10, 75, 150);
     line-height: 1; 
@@ -559,9 +534,9 @@ section{
     gap:1.5rem;
 }
 .user img{
-    height:9rem;
-    width:9rem;
-    border-radius: 4px;
+    height:60px;
+    width:70px;
+    border-radius:50%;
 }
 .user .info h3{
     font-size:2rem;
@@ -800,7 +775,26 @@ tr:hover{
         line-height:1.3;
         
     }
-  
+    .contact-info{
+        position:relative;
+        background:var(--white);
+        text-align:left;
+        padding:0 2rem;
+        padding-top:1rem;
+        padding-left: 30%;
+        transition:.2s linear;
+        border: 2px solid black;
+     }
+     .contact-info .fas{
+         margin-right: 10px;
+         font-size:2rem;
+         color:var(--black);
+     }
+     
+     .contact-info .info h3{
+         font-size: 2rem;
+         color:#f5bf23
+     }
 
     .services .box-container{
         margin-top: 3rem;
