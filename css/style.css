@@ -415,17 +415,22 @@ section{
 .projects{
     background: var(--black);
 }
+.projects1{
+    background: var(--light-bg);
+}
 .projects .heading{
     color:var(--white);
 }
 .projects .box-container{
     margin-top: 3rem;
+    margin-left: 10%;
     display:grid;
-    grid-template-columns:32% 32% 32%;
+    grid-template-columns:90%;
     gap:2rem;
     align-items: flex-end;
     transition: .2s;
     }
+    
  .projects .box{
         cursor:initial;
     }
@@ -450,18 +455,20 @@ section{
     padding:1rem;
       
  }
- .info h3{
-    font-size:1.7rem;
-    color:var(--black);
-    text-transform:capitalize;    
-    padding:1rem 0;
-}
-.info p{
-    font-size:1.5rem;
-    color:rgb(10, 75, 150);
-    line-height: .9;  
-}
 
+.projects .content .info p{
+    font-size:1.7rem;
+    text-align: left;
+    color:var(--black);
+    line-height: 1.4;  
+    text-align: left;
+}
+.projects .intro p{
+    font-size:1.8rem;
+    color:white;
+    line-height: 1.5;  
+    font-family: 'Courier New', Courier, monospace;
+}
 .reviews .slider p{
     padding:1.5rem;
     background: var(--light-bg);
@@ -588,6 +595,23 @@ hr{
     color:var(--yellow);
 
 }
+table{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    width:100%;
+    font-size: 14px;;
+
+}
+th,td{
+    border:1px solid #dddddd;
+    text-align: left;
+    padding:8px;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+    color:#4f441f
+}
 
 
                                        /*MEDIA QUERY*/
@@ -663,11 +687,6 @@ hr{
     scroll-behavior:smooth;
     }
 
- .search-form input{
-    width:60%;
-    margin-left:150px; 
-       
-     }
  .home .slide{
         justify-content: center;
      }
@@ -688,7 +707,7 @@ hr{
     .projects .box-container{
         margin-top: 3rem;
         display:grid;
-        grid-template-columns:48% 48%;
+        grid-template-columns:100%;
         gap:2rem;
         align-items: flex-end;
         }
@@ -715,7 +734,7 @@ hr{
      .projects .box-container{
         margin-top: 2rem;
         display:grid;
-        grid-template-columns:45% 45%;
+        grid-template-columns:100%;
         gap:1rem;
         align-items: flex-end;
         }
