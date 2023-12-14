@@ -459,10 +459,10 @@ section{
 }
 
 
-.legal .box2{
+.legal .box-container  .box2{
     text-align: right;
-    margin-right: -80px;
-    height:80%;
+    margin-right: -180px;
+    height:100%;
     overflow:hidden;
     padding-top: 2rem;
     z-index:1000;
