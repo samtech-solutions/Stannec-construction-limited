@@ -303,8 +303,14 @@ section{
     color:var(--black);
     text-transform:capitalize;
     padding-left:1rem;
-    border-left: 1rem solid var(--yellow);
-    
+    border-left: 1rem solid var(--yellow);  
+ }
+ .heading1{
+    margin-bottom: 3rem;
+    font-size:1.5rem;
+    color:var(--white);
+    text-transform:capitalize;
+    padding-left:5rem; 
  }
 .about{
     .row{
@@ -411,6 +417,76 @@ section{
     line-height: .9;  
    font-family: Arial, Helvetica, sans-serif;
 }
+
+.legal{
+    background: var(--light-bg);
+ 
+}
+.legal .box-container{
+    display:absolute;
+    transition: .2s;
+}
+.legal .box{
+    text-align: center;
+    margin-left: 70px;
+    height:100%;
+    overflow:hidden;
+    padding: 1rem;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    border:var(--border)
+}
+.legal .box1{
+    text-align: center;
+    margin-left: -100px;
+    height:100%;
+    overflow:hidden;
+    padding-top: 6rem;
+    padding-bottom: -5rem;   
+}
+.legal h5{
+    font-size: 15px;
+}
+.legal .box1 h5{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.legal .box2 h5{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+
+.legal .box2{
+    text-align: right;
+    margin-right: -80px;
+    height:80%;
+    overflow:hidden;
+    padding-top: 2rem;
+    z-index:1000;
+    padding-bottom: -2rem;   
+}
+
+.legal .intro p{
+    font-size:1.8rem;
+    color:black;
+    line-height: 1.2;  
+    font-family: 'Courier New', Courier, monospace;
+}
+.legal img{
+    height:100%;
+    width:100%;
+}
+.legal img:hover{
+    transform:translateY(0rem)
+ }
+.legal hr{
+    border:0.5px dotted #4f441f;
+}
+
+
 
 .projects{
     background: var(--black);
@@ -711,6 +787,51 @@ tr:nth-child(even){
         gap:2rem;
         align-items: flex-end;
         }
+
+.legal .box{
+    text-align: center;
+    margin-left: 2px;
+    height:100%;
+    width:110%;
+    overflow:hidden;
+    padding: 0.3rem;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    border:var(--border)
+}
+.legal .box1{
+    text-align: center;
+    margin-left: -30px;
+    height:100%;
+    overflow:hidden;
+    padding-top: 2rem;
+    padding-bottom: -5rem;   
+}
+.legal h5{
+    font-size: 15px;
+}
+.legal .box1 h5{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.legal .box2 h5{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+
+.legal .box2{
+    text-align: right;
+    margin-right: -200px;
+    height:100%;
+    overflow:hidden;
+    padding-top: 6rem;
+    z-index:1000;
+    padding-bottom: -5rem;   
+}
+
  }
 
 
