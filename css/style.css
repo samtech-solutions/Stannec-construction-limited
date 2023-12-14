@@ -769,11 +769,15 @@ tr:hover{
     }
 
  .home .slide{
-        justify-content: center;
+        justify-content :left;
+        width:99%;
      }
 
      .home .content{
-        width:90%;
+        width:96%;
+     }
+     .home .content p{
+        width:98%;
      }
 
  .box-container{
